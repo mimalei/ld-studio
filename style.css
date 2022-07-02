@@ -29,12 +29,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a {
     border: 2px solid rgb(245, 99, 99);
-}
-
-.bg-image {
-    background-color: rgb(252, 237, 174);
 } */
-
 /* End Temporary Styles */
 
 /* Gridlex - Universal Reset */
@@ -123,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: 2.2rem;
 }
 
@@ -151,6 +146,12 @@ nav a:hover {
     color: #be9a85;
 }
 
+.bump-right {
+    margin-right: calc(-20vw);
+    z-index: 2;
+    position: relative;
+}
+
 .sm-bold {
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 2.5rem; 
@@ -158,11 +159,33 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
-.big-bold {
+.md-bold {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 5vw;
     font-weight: 700;
     letter-spacing: 0;
+}
+
+.big-bold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.our-benefits h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subtle-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.subtle {
+    opacity: 0.7;
 }
 
 /* Home Page */
@@ -201,10 +224,68 @@ hr {
     text-transform: uppercase;
 }
 
+/* Header & Footer Styles */
+header {
+    padding: 1% 5%;
+}
+
+header nav a {
+    display: inline-block; 
+    padding: 0.5rem;
+}
+
+.magazin {
+    margin-right: 1.5rem;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin-bottom: 0.01rem;
+}
+
+footer nav a {
+    display: block;
+}
+
 /* Background Styles */
+.bg-image {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #f2eee9;
+}
+
+.bg-image-light {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
 .light-bg {
     background-color: #f2eee9;
 }
+
+.featured-bg {
+    background-color: #e8e1d9;
+}
+
+.v-light-bg {
+    background-color: #f8f6f4;
+}
+
+/* Hamburger */
+/* .hamburger {
+    position: absolute;
+    top: 1vw;
+    right: 5vw;
+    cursor: pointer;
+    z-index: 6;
+    padding: 0.5rem;
+} */
 
 /* Button Styles */
 .button {
