@@ -53,7 +53,6 @@ body {
 }
 
 /* General Styles */
-.mobile-menu { display: none; }
 
 .left     { text-align: left; }
 .centered { text-align: center; }
@@ -416,6 +415,26 @@ footer nav a {
 }
 
 /* Hamburger */
+
+.mobile-menu { display: none; }
+/* .mobile-menu { 
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: #faf4ed; 
+    padding: 10%; 
+    z-index: 5; 
+} */
+
+/* .mobile-menu .logo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase;
+} */
+
 /* .hamburger {
     position: absolute;
     top: 1vw;
@@ -423,6 +442,13 @@ footer nav a {
     cursor: pointer;
     z-index: 6;
     padding: 0.5rem;
+} */
+
+/* .hamburger.active {
+    color: #be9a85;
+    position: fixed; 
+    top: 1vw; 
+    right: 5vw; 
 } */
 
 /* Button Styles */
