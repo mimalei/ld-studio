@@ -39,6 +39,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding: 0;
 }
 
+[class*=grid] { margin: 0; }
+
 [class*="col-"], 
 [class*="col_"], 
 [class~="col"] {
@@ -477,52 +479,48 @@ footer nav a {
 
 
 /* General CSS Responsive Styles (apply everywhere unless overridden) */
-.show-xs, 
-.show-sm, 
-.show-md {
-    display: none; 
-}
+.mob-show { display: none; }
 
 /* -------------------- MD Media Query (64em/1024px) -------------------- */
 /* Styles added here will apply at devices smaller than 1024px, or zoomed in equivalent */
 
-@media(max-width:64em) {
+/* @media(max-width:64em) {
     .show-md { display: block; }
     .hide-md { display: none; }
-}
+} */
 
 
 /* -------------------- SM Media Query (48em/768px) -------------------- */
 /* Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 
 @media(max-width:48em) {
-    .show-sm { display: block; }
-    .hide-sm { display: none; }
+    .mob-show { display: block; }
+    .mob-hide { display: none; }
 
-    .sm-text-left   { text-align: left; }
-    .sm-text-center { text-align: center; }
-    .sm-text-right  { text-align: right; }
+    .mob-text-left   { text-align: left; }
+    .mob-text-center { text-align: center; }
+    .mob-text-right  { text-align: right; }
 
-    .sm-padded    { padding: 5%; }
-    .sm-padded-1  { padding: 1rem; }
-    .sm-padded-05 { padding: 0.5rem; }
+    .mob-padded-5   { padding: 5%; }
+    .mob-padded-1  { padding: 1rem; }
+    .mob-padded-05 { padding: 0.5rem; }
 
-    .sm-padded-t-0 { padding-top: 0; }
-    .sm-padded-b-0 { padding-bottom: 0; }
-    .sm-padded-l-0 { padding-left: 0; }
-    .sm-padded-r-0 { padding-right: 0; }
+    .mob-padded-t-0 { padding-top: 0; }
+    .mob-padded-b-0 { padding-bottom: 0; }
+    .mob-padded-l-0 { padding-left: 0; }
+    .mob-padded-r-0 { padding-right: 0; }
 
-    .sm-margin-t-0 { margin-top: 0; }
-    .sm-margin-b-0 { margin-bottom: 0; }
-    .sm-margin-l-0 { margin-left: 0; }
-    .sm-margin-r-0 { margin-right: 0; }
+    .mob-margin-t-0 { margin-top: 0; }
+    .mob-margin-b-0 { margin-bottom: 0; }
+    .mob-margin-l-0 { margin-left: 0; }
+    .mob-margin-r-0 { margin-right: 0; }
 }
 
 
 /* --------------------XS Media Query (36em/576px) -------------------- */
 /* Stlyles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
-@media(max-width:36em) {
+/* @media(max-width:36em) {
     .show-xs { display: block; }
     .hide-xs { display: none; }
-}
+} */
