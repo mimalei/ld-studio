@@ -512,7 +512,9 @@ footer nav a {
 
     .mob-padded-5   { padding: 5%; }
     .mob-padded-1  { padding: 1rem; }
+    .mob-padded-2  { padding: 2rem; }
     .mob-padded-05 { padding: 0.5rem; }
+    .mob-padded-0  { padding: 0; }
 
     .mob-padded-t-0 { padding-top: 0; }
     .mob-padded-b-0 { padding-bottom: 0; }
