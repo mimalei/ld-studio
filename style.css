@@ -510,7 +510,9 @@ footer nav a {
     .mob-text-center { text-align: center; }
     .mob-text-right  { text-align: right; }
 
-    .mob-padded-5   { padding: 5%; }
+    .mob-tall-50 { min-height: 50vh; }
+
+    .mob-padded-5  { padding: 5%; }
     .mob-padded-1  { padding: 1rem; }
     .mob-padded-2  { padding: 2rem; }
     .mob-padded-05 { padding: 0.5rem; }
@@ -535,6 +537,16 @@ footer nav a {
         line-height: 1.5; 
     }
 
+    .big-bold.vertical-service-heading {
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+        font-size: 5vh;
+        display: block; 
+        position: absolute; 
+        white-space: nowrap; 
+        top: 50%; 
+        left: 50%; 
+    }
+
     /* Header & Footer Styles */
     footer {
         text-align: center; 
@@ -543,6 +555,11 @@ footer nav a {
     .magazin {
         margin-right: 0.75rem;
     }
+
+    /* Flex Flip */
+    /* .mob-flex-flip {
+        flex-direction: column-reverse; 
+    } */
 }
 
 
